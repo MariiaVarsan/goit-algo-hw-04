@@ -90,12 +90,14 @@ def main():
             print("How can I help you?")
         elif command == "add":
             print(add_contact(args, contacts))
-            print(contacts)
+            # print(contacts)
         elif command == "change":
             print(change_contact(args, contacts))
-            print(contacts)
+            # print(contacts)
         elif command == "phone":
             print(show_phone(args, contacts))
+        elif command == "all":
+            print(contacts)
         else:
             print("Invalid command.")
 
